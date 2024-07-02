@@ -17,7 +17,7 @@ def game_best_score():
 
 pygame.init()
 screen = pygame.display.set_mode((800, 400))
-pygame.display.set_caption('test-1')
+pygame.display.set_caption('Git Gud')
 main_font = pygame.font.Font('font/Pixeltype.ttf', 50)
 clock = pygame.time.Clock()
 game_active = False
@@ -32,7 +32,7 @@ ground_surface = pygame.image.load('graphics/Ground.png').convert_alpha()
 game_over_surface_1 = main_font.render('Git Gud', False, (64, 64, 64))
 game_over_rectangle_1 = game_over_surface_1.get_rect(center=(400, 150))
 
-game_over_surface_2 = main_font.render('Gress  "SPACE"  to Git Gud', False, (64, 64, 64))
+game_over_surface_2 = main_font.render('Press  "SPACE"  to Git Gud', False, (64, 64, 64))
 game_over_rectangle_2 = game_over_surface_2.get_rect(center=(400, 250))
 
 # player
