@@ -42,14 +42,6 @@ def player_animation():
         player_surface = player_walk[int(player_index)]
 
 
-def snail_animation():
-    pass
-
-
-def fly_animation():
-    pass
-
-
 pygame.init()
 screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption('Git Gud')
